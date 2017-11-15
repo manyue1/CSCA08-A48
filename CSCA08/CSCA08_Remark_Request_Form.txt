@@ -10,9 +10,9 @@ and must be sent within 1 week of the assignment mark being posted:
 <CSCA08 Remark: Assignment #> - <MarkUs Username>
 
 ------------------------------
-Full Name:
-MarkUs Username:
-Exercise/Assignment:
+Full Name: Yue Man
+MarkUs Username: manyue
+Exercise/Assignment: A0
 
 Please put a X beside the reason for this remark request, and complete the related fields:
 
@@ -21,10 +21,11 @@ _ I never received a report file.
 
 _ I have a report file, but I cannot see my mark on MarkUs.
 
-_ I believe that there is a problem with the automarker
-	Test case name:
-	Text copied from automarker:
-	Explanation of why you think this is incorrect:
+_x I believe that there is a problem with the automarker
+	Test case name: unittest.loader._FailedTest.test_a0
+	Text copied from automarker: hijack.RestrictedFunctionError: Restricted function/module was detected. Restricted modules: random.
+	Explanation of why you think this is incorrect: I use an restricted modules(random) in my code, because in validate_gene function,
+by the time I finished my assignment, I have no idea how to finish it without random module. To import it, I put it at the begining, so the whole .py cannot be marked by the automarker and my automarker grade are 0. I believe ignore this function I still can get some point.
 
 _ There has been a calculation error (the mark shown does not reflect the mark given in the report file/on MarkUs).
 	Mark I believe I should have received:
